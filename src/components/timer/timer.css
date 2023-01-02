@@ -1,0 +1,24 @@
+.time-info {
+	font-size: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+}
+
+.dots {
+	margin-bottom: 2%;
+	animation-name: dot-animation;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+body {
+	background-color: rgb(212, 245, 245);
+}
+
+@keyframes dot-animation {
+	50%   {
+		opacity: 0;
+	}
+  }
