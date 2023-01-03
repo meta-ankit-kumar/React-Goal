@@ -7,9 +7,13 @@ export const Main = () => {
 		setCurrentTime(new Date());
 	}
 	setInterval(updateCurrentTime, 1000);
+	const hours = currentTime.getHours(),
+	minutes = currentTime.getMinutes(),
+	seconds = currentTime.getSeconds(),
+	convention = hours > 12 ? 'PM' : 'AM';
 	return (
 		<div>
-			<Timer hours={ currentTime.getHours() % 12} minutes={currentTime.getMinutes()} seconds={currentTime.getSeconds()}/>
+			<Timer hours={ hours % 12} minutes={minutes} seconds={seconds} timeConvention={convention}/>
 		</div>
 	)
 }

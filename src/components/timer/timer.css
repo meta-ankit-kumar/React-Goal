@@ -1,9 +1,15 @@
 .time-info {
-	font-size: 5rem;
+	font-size: 5em;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	height: 80vh;
+}
+
+.time {
+	background-color: rgb(0, 132, 247);
+	width: 20%;
 }
 
 .dots {
@@ -21,4 +27,4 @@ body {
 	50%   {
 		opacity: 0;
 	}
-  }
+}
