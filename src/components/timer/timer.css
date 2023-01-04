@@ -5,11 +5,18 @@
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	height: 80vh;
+	margin: 0 auto;
 }
 
 .time {
-	background-color: rgb(0, 132, 247);
-	width: 20%;
+	background-color: rgb(180, 182, 184);
+	width: 60%;
+	text-align: end;
+}
+
+.time-convention {
+	background-color: rgb(180, 182, 184);
+	width: 40%;
 }
 
 .dots {
